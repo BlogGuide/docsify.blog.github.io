@@ -18,4 +18,18 @@
 </div>
 <br/>
 
+---
 
+![http://docsify.blog.itedus.cn/](https://bugstack.cn/assets/images/2020/all-21-2.png)
+
+- **介绍**：docsify 可以快速帮你生成文档网站。不同于 GitBook、Hexo 的地方是它不会生成静态的 `.html` 文件，所有转换工作都是在运行时。如果你想要开始使用它，只需要创建一个 `index.html` 就可以开始编写文档并直接[部署在 GitHub Pages](https://docsify.js.org/#/zh-cn/deploy)。
+- **官网**：[https://docsify.js.org/#/zh-cn](https://docsify.js.org/#/zh-cn/)
+- **案例**：[http://docsify.blog.itedus.cn](http://docsify.blog.itedus.cn/)
+- **源码**：[https://github.com/BlogGuide/docsify.blog.github.io](https://github.com/BlogGuide/docsify.blog.github.io) - *克隆到自己的仓库*
+- **命令**：
+```java
+npm i docsify-cli -g # 全局快速安装
+docsify init ./docs  # 初始化项目
+docsify serve docs   # 本地预览
+```
+- **特点**：非常简单、干净，直接把工程文件和md博客推送到Github即可，不需要本地维护编译。
